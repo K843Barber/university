@@ -99,7 +99,7 @@ timesData %>%
   theme(plot.title = element_text(hjust = 0.5))
 
 # There appears to be a stronger relationship between teaching and income with
-# the UK over the US, however, US have appear to have more Universities, which we shall 
+# the UK over the US, however, US appear to have more Universities, which we shall 
 # now check. P.S - Noting that these values plotted may represent the same universities 
 # but in different years, and that the UK has a lot of universities with high income
 # and a huge range of incomes at that level
@@ -238,7 +238,7 @@ student_count_by_gender %>%
   labs(title = "Proportion of students at each university") + 
   theme(plot.title = element_text(hjust = 0.5))
 
-# relationship between teaching and income within the most populated universities
+# Relationship between teaching and income within the most populated universities
 
 student_count_by_gender %>%
   group_by(year) %>%
